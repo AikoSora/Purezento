@@ -1,0 +1,100 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #778899;
+}
+
+html, body {width: 100%; height: 100%;}
+
+body, main, #chibiBlock, .buttonBlock {
+	display: flex;
+}
+
+body, main {
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+body {
+	background: #F5F7F7;
+}
+
+main {
+	flex-direction: column;
+	align-content: center;
+}
+
+input[type=button]:active,
+input[type=button] {
+	width: 100%;
+	height: 45px;
+	border-radius: 12px;
+	border-style: none;
+	background-color: #B0C4DE;
+	font-size: 20px;
+	color: #F5F7F7;
+}
+
+p {
+	font-size: 2vh;
+}
+
+h1 {
+	font-size: 5vh;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.buttonBlock {
+	width: 80%;
+	margin-top: 5%;
+	align-content: center;
+	justify-content: center;
+}
+
+.chibi {
+	flex-direction: row;
+	text-align: center;
+	min-width: 200px;
+}
+
+.russian {
+	font-family: 'Pacifico', cursive;
+}
+
+.japanese {
+	font-family: 'Potta One', cursive;
+}
+
+.english {
+	font-family: 'DynaPuff', cursive;
+}
+
+.mail, .endMail {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.endMail {
+	overflow-y: auto;
+	max-height: 25%;
+}
+
+#chibiBlock {
+	width: 100%;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+#scrolledChibi {
+	display: none;
+}
+
+@media screen and (max-width: 799px) {
+	#scrolledChibi {
+		display: block;
+	}
+}

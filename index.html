@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Снежику</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="style.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<main id="mainpage">
+		<h1 class="japanese">こんにちわ！</h1><br />
+		<p class="russian">Выбери чибика</p>
+		<br />
+		<div id="chibiBlock">
+			<div class="chibi">
+				<img id = "hedgehogChibi" src="chibi/HedgehogChibi.png" alt="hedgehog" width="170" height="200" title="Hedgehog">
+				<p class="english">Hedgehog</p>
+				<br />
+			</div>
+			<div class="chibi">
+				<img id = "matveyChibi" src="chibi/MatveyChibi.png" alt="matvey" width="150" height="200" title="Matvey">
+				<p class="english">Matvey</p>
+				<br />
+			</div>
+			<div class="chibi">
+				<img id = "ilyaChibi" src="chibi/IlyaChibi.png" alt="ilya" width="180" height="200" title="Ilya">
+				<p class="english">Ilya</p>
+				<br />
+			</div>
+			<div class="chibi">
+				<img id = "aikoChibi" src="chibi/AikoChibi.png" alt="aiko" width="200" height="200" title="Aiko">
+				<p class="english">Aiko</p>
+				<br />
+			</div>
+		</div>
+		<p id="scrolledChibi" class="russian">(Они все прокручиваются)</p>
+	</main>
+	<main id="aiko" style="display: none;">
+		<div class="chibi">
+			<p class="english">Aiko</p>
+			<img id = "aikoChibi" src="chibi/AikoChibi.png" alt="aiko" width="200" height="200" title="Aiko">
+			<br />
+		</div>
+		<p class="mail russian">
+			Ну знаешь, я даже как-то и не собирался тебя поздравлять, даже в планах этого не было, просто с днем рождения, радуйся что лично я решил тебя поздравить!!! Ой, как-то грубо прозвучало, нет, это не то о чем ты подумала, я не хотел быть грубым, просто... Ну все, хватит!
+		</p>
+		<div class="buttonBlock">
+			<input id="aiko" type="button" value="Назад">
+		</div>
+	</main>
+
+	<main id="ilya" style="display: none;">
+		<div class="chibi">
+			<p class="english">Ilya</p>
+			<img id = "ilyaChibi" src="chibi/IlyaChibi.png" alt="ilya" width="180" height="200" title="Ilya">
+			<br />
+		</div>
+		<p class="mail russian">
+			Поздравляю с днём рожденья!
+Счастья, радости, веселье, чтобы елось и пилось
+чтоб хотелось и моглось,
+чтоб всегда и чтоб везде,
+было с <a class="russian">кем</a> и было где!!!
+		</p>
+		<div class="buttonBlock">
+			<input id="ilya" type="button" value="Назад">
+		</div>
+	</main>
+
+	<main id="hedgehog" style="display: none;">
+		<div class="chibi">
+			<p class="english">Hedgehog</p>
+			<img id = "hedgehogChibi" src="chibi/HedgehogChibi.png" alt="hedgehog" width="170" height="200" title="Hedgehog">
+			<br />
+		</div>
+		<p class="mail russian">
+			Снежана, Снежка, Снежа
+Поздравляю с днём рождения
+Желаю чтоб стоял и деньги были, это главное
+		</p>
+		<div class="buttonBlock">
+			<input id="hedgehog" type="button" value="Назад">
+		</div>
+	</main>
+
+	<main id="matvey" style="display: none;">
+		<div class="chibi">
+			<p class="english">Matvey</p>
+			<img id = "matveyChibi" src="chibi/MatveyChibi.png" alt="matvey" width="150" height="200" title="Matvey">
+			<br />
+		</div>
+		<p class="mail russian">
+			Мы так сильно не общаемся, по этому даже не знаю что и сказать, просто пожелаю удачной жизни, побольше денег, счастье там, с днем рождения!
+		</p>
+		<div class="buttonBlock">
+			<input id="matvey" type="button" value="Назад">
+		</div>
+	</main>
+
+	<main id="aikoHi" style="display: none;">
+		<div class="chibi">
+			<p class="english">Aiko</p>
+			<img id = "aikoHi" src="chibi/AikoChibi.png" alt="aiko" width="200" height="200" title="Aiko">
+			<br />
+		</div>
+		<p class="mail russian">
+			ЧТО??? Это он точно не про меня!!!!
+		</p>
+		<div class="buttonBlock">
+			<input id="aikoHi" type="button" value="Назад">
+		</div>
+	</main>
+
+	<main id="aikoSayounara" style="display: none;">
+		<div class="chibi">
+			<p class="english">Aiko</p>
+			<img id = "aikoSayounara" src="chibi/AikoChibi.png" alt="aiko" width="200" height="200" title="Aiko">
+			<br />
+		</div>
+		<p class="endMail russian">
+			 Если ты получила эту страничку, значит ты посмотрела все страницы которые были на виду и спрятаны, поздравляю! Спасибо, я не знаю понравился ли тебе наш мини подарок, может даже и настроение поднял, если это так, я очень сильно рад, скорее всего даже и все остальные рады, матвей, илья, ежик... Нет, они не писали этот чудесный сайт и наверное даже не сделали бы чего-то подобного, я просто насильно затащил их в отдельный чат и заставлял придумывать идеи, хех. Но я не думаю что им не понравилось и они этого не хотели, они придумали прикольные идеи и даже написали тебе поздравительные слова, прости что мы можем дать тебе только это, но знай что мы старались! Ладно, довольно этих слов, я уж точно старался не ради тебя! Просто надо что-то в портфолио сделать... Просто заскринь эту страницу и скинь мне!!!
+		</p>
+		<div class="buttonBlock">
+			<input id="aikoSayounara" type="button" value="Конец">
+		</div>
+	</main>
+
+	<main id="end" style="display: none;">
+		<h2 class="english">END</h2>
+	</main>
+
+</body>
+</html>
